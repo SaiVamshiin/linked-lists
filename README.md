@@ -104,19 +104,3 @@ list.removeAt(4);
 list.toString();
 ```
 
-Because I printed all results to the console, I was able to VSCode's Live Server addon to quickly enter values and check my results.
-
-Below is the console's output:
-```
-size():  6                                                        index.js:40:15
-findHead():  0                                                    index.js:46:15
-tail():  5                                                        index.js:56:15
-at(1):  Object { value: 1, next: {…} }                            index.js:73:15
-pop() : Object { value: 4, next: null }                           index.js:84:15
-size():  5                                                        index.js:40:15
-contains(4):  true                                                index.js:93:19
-find(4):  4                                                       index.js:108:19
-toString():  (0) -> (1) -> (2) -> (3) -> (4) -> null              index.js:130:15
-toString():  (0) -> (1) -> (2) -> (insert) -> (3) -> (4) -> null  index.js:130:15
-toString():  (0) -> (1) -> (2) -> (insert) -> (4) -> null         index.js:130:15
-```
